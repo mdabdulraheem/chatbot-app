@@ -1,0 +1,52 @@
+
+  ::ng-deep nb-layout-column {
+    justify-content: center;
+    display: flex;
+    padding-top: 0 !important;
+  }
+
+  nb-chat {
+    width: 500px;
+    max-width: 100vw;
+    height: 100vh !important;
+  }
+
+  .chat-container {
+    margin-bottom: 2rem;
+
+    li {
+      padding-top: 1rem;
+    }
+  }
+
+  .chart-description {
+    text-align: center;
+    margin: 0 auto;
+    width: 52%;
+  }
+
+  .chart-features {
+    margin-top: 2.75rem;
+  }
+
+//   @include media-breakpoint-down(xxl) {
+//     nb-chat {
+//       width: 400px;
+//     }
+//   }
+
+//   @include media-breakpoint-down(md) {
+//     nb-chat {
+//       width: 400px;
+//     }
+
+//     .chart-description {
+//       width: 90%;
+//     }
+//   }
+
+//   @include media-breakpoint-down(is) {
+//     nb-chat {
+//       width: 300px;
+//     }
+//   }
